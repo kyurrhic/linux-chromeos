@@ -1,4 +1,5 @@
 #!/bin/bash
-export GOOGLE_DEFAULT_CLIENT_SECRET=OTJgUOQcT7lO7GsGZq2G4IlT
+cd "$(dirname "$0")" || exit 1
 export GOOGLE_DEFAULT_CLIENT_ID=77185425430.apps.googleusercontent.com
-./chrome --oauth2-client-id=77185425430.apps.googleusercontent.com --oauth2-client-secret=OTJgUOQcT7lO7GsGZq2G4IlT --use-system-clipboard --login-manager
+export GOOGLE_DEFAULT_CLIENT_SECRET=OTJgUOQcT7lO7GsGZq2G4IlT
+exec ./chrome --use-system-clipboard --login-manager "$@"
