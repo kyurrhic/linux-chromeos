@@ -21,6 +21,7 @@ This requires you to be running an x86-64/amd64 Linux system with Chromium depen
 
 ## Dependencies
 You may have to adapt the command depending on your system setup. I've only tested on a Debian 13 system.
+
 <b>Ubuntu 24.04+ / Debian 13+</b>
 ```bash
 sudo apt update && sudo apt install -y git curl unzip ca-certificates fonts-freefont-ttf fonts-ipafont-gothic fonts-liberation fonts-noto-color-emoji fonts-wqy-zenhei libasound2t64 libatk-bridge2.0-0t64 libatk1.0-0t64 libatspi2.0-0t64 libc6 libcairo2 libcups2t64 libdav1d7 libdbus-1-3 libdouble-conversion3 libdrm2 libexpat1 libflac14 libfontconfig1 libfreetype6 libgbm1 libgcc-s1 libglib2.0-0t64 libgtk-3-0t64 libharfbuzz-subset0 libharfbuzz0b libjpeg62-turbo liblcms2-2 libminizip1t64 libnspr4 libnss3 libopenh264-8 libopenjp2-7 libopus0 libpango-1.0-0 libpangocairo-1.0-0 libpulse0 libudev1 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxkbcommon0 libxnvctrl0 libxrandr2 libxrender1 libxshmfence1 libxss1 libxtst6 libzstd1 xdg-desktop-portal-gtk xdg-utils zlib1g
